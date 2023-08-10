@@ -1,2 +1,2 @@
 # MLOps-Rust
-[![Rust](https://github.com/m1np3m/MLOps-Rust/actions/workflows/rust.yml/badge.svg)](https://github.com/m1np3m/MLOps-Rust/actions/workflows/rust.yml)
+[![Rust-Pipeline](https://github.com/m1np3m/MLOps-Rust/actions/workflows/pipeline.yml/badge.svg?branch=main)](https://github.com/m1np3m/MLOps-Rust/actions/workflows/pipeline.yml)
