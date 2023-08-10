@@ -1,4 +1,4 @@
-name: Rust-CI-Pipeline
+name: Rust-Pipeline
 
 on:
   push:
