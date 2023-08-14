@@ -1,0 +1,12 @@
+/Users/m4npm/Developer/Rust/hello_cargo/target/debug/deps/xattr-4911ba8e31fa6233.rmeta: /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/lib.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/error.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/mod.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/util.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/linux_macos/mod.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/linux_macos/macos.rs
+
+/Users/m4npm/Developer/Rust/hello_cargo/target/debug/deps/libxattr-4911ba8e31fa6233.rlib: /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/lib.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/error.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/mod.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/util.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/linux_macos/mod.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/linux_macos/macos.rs
+
+/Users/m4npm/Developer/Rust/hello_cargo/target/debug/deps/xattr-4911ba8e31fa6233.d: /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/lib.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/error.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/mod.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/util.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/linux_macos/mod.rs /Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/linux_macos/macos.rs
+
+/Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/lib.rs:
+/Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/error.rs:
+/Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/mod.rs:
+/Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/util.rs:
+/Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/linux_macos/mod.rs:
+/Users/m4npm/.cargo/registry/src/index.crates.io-6f17d22bba15001f/xattr-1.0.1/src/sys/linux_macos/macos.rs:
