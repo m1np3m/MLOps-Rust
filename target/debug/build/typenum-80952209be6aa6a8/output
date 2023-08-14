@@ -1,3 +1,0 @@
-cargo:rerun-if-changed=build/main.rs
-cargo:rustc-env=TYPENUM_BUILD_CONSTS=/Users/m4npm/Developer/Rust/hello_cargo/target/debug/build/typenum-80952209be6aa6a8/out/consts.rs
-cargo:rustc-env=TYPENUM_BUILD_OP=/Users/m4npm/Developer/Rust/hello_cargo/target/debug/build/typenum-80952209be6aa6a8/out/op.rs
