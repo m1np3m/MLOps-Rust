@@ -1,8 +1,8 @@
 install:
 	# Install if needed
-	#@echo "Updating rust toolchain"
-	#rustup update stable
-	#rustup default stable
+	@echo "Updating rust toolchain"
+	cargo clean &&\
+	cargo build -j 6
 
 rust-version:
 	@echo "Rust command-line utility versions:"
@@ -25,4 +25,12 @@ test:
 	@echo "Testing all projects with cargo"
 	./test.sh
 
-all: format lint test
+build-image:
+	@echo "Building docker image"
+	docker build -t rust-mlops .
+
+run-image:
+	@echo "Running docker image"
+	docker run -it --rm rust-mlops
+
+all: install format lint test
