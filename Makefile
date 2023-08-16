@@ -33,4 +33,10 @@ run-image:
 	@echo "Running docker image"
 	docker run -it --rm rust-mlops
 
+run:
+	cargo run
+
+release:
+	cargo build --release
+
 all: install format lint test

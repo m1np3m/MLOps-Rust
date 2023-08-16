@@ -1,6 +1,9 @@
-// declare module mlops
-mod helpers;
 fn main() {
-    println!("Hello, MLOps!");
-    println!("The sum of 2 and 3 is {}", helpers::sum(2, 3));
+    let mut s = String::from("hello");
+    //
+    let r1 = &s; // no problem
+    let r2 = &s; // no problem
+    println!("{}, {}", r1, r2);
+    let r3 = &mut s; // BIG PROBLEM
+    println!("{}", r3);
 }
