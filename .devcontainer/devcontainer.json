@@ -9,5 +9,6 @@
 			"ms-vscode.makefile-tools"
 		]
 	}
-}
+},
+"postCreateCommand": "./setup.sh",
 }
