@@ -1,19 +1,23 @@
-// create sum function
-pub fn sum(a: i32, b: i32) -> i32 {
-    a + b
+// utilities for working with polars dataframes
+//
+use polars::prelude::*;
+
+//read in a csv file
+pub fn read_csv(path: &str) -> DataFrame {
+    CsvReader::from_path(path).unwrap().finish().unwrap()
 }
 
-// create sub function
-pub fn sub(a: i32, b: i32) -> i32 {
-    a - b
+//print "n" rows of a dataframe
+pub fn print_df(df: &DataFrame, n: usize) {
+    println!("{:?}", df.head(Some(n)));
 }
 
-// create mul function
-pub fn mul(a: i32, b: i32) -> i32 {
-    a * b
+//print the schema of a dataframe
+pub fn print_schema(df: &DataFrame) {
+    println!("{:?}", df.schema());
 }
 
-// create div function
-pub fn div(a: i32, b: i32) -> i32 {
-    a / b
+//print the shape of a dataframe
+pub fn print_shape(df: &DataFrame) {
+    println!("{:?}", df.shape());
 }
