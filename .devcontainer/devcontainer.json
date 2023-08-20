@@ -37,7 +37,7 @@
 				"GitHub.copilot-labs",
 				"PKief.material-icon-theme",
 				"ms-vscode.makefile-tools",
-				"dracula-theme.theme-dracula"
+				"dracula-theme.theme-dracula",
 			]
 		}
 	},
@@ -46,7 +46,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	 "postCreateCommand": "./setup.sh",
+	"postCreateCommand": "chmod +x ./setup.sh && ./setup.sh",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode"
